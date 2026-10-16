@@ -1,0 +1,13 @@
+{
+  "name": "carwith-relay",
+  "version": "1.0.0",
+  "description": "Tesla CarWith public relay server (no-root mode)",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

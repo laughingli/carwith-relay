@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: carwith-relay
+    env: node
+    plan: free
+    region: singapore
+    buildCommand: ""
+    startCommand: node relay-server.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
